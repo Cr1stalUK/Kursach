@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">MenuMate2</string>
+    <!-- Категория: Кофе -->
+    <string-array name="coffee_array">
+        <item>Латте</item>
+        <item>Айс Латте</item>
+        <item>"Капучино"</item>
+        <item>Какао</item>
+        <item>Горячий шоколад</item>
+        <item>Эспрессо</item>
+    </string-array>
+
+    <!-- Категория: Чай -->
+    <string-array name="tea_array">
+        <item>Чай черный с чабрецом</item>
+        <item>Чай черный Эрл Грей</item>
+        <item>Чай черный Ассам</item>
+        <item>Чай зеленый Жасмин</item>
+        <item>Молочный улун</item>
+        <item>Фруктовый чай</item>
+    </string-array>
+
+    <!-- Категория: Вода -->
+    <string-array name="water_array">
+        <item>Байкал газ</item>
+        <item>Байкал н/газ</item>
+        <item>Боржоми</item>
+    </string-array>
+
+    <!-- Категория: Газированные напитки -->
+    <string-array name="soda_array">
+        <item>Кока-кола</item>
+        <item>Спрайт</item>
+        <item>Фанта</item>
+        <item>Ред Булл</item>
+        <item>Тархун</item>
+    </string-array>
+
+    <!-- Категория: Соки -->
+    <string-array name="juices_array">
+        <item>Апельсин</item>
+        <item>Ананас</item>
+        <item>Вишня</item>
+        <item>Томат</item>
+        <item>Яблоко</item>
+        <item>Морс Домашний</item>
+    </string-array>
+
+    <!-- Категория: Коктейли молочные -->
+    <string-array name="milkshakes_array">
+        <item>Ванильный</item>
+        <item>Клубничный</item>
+        <item>Шоколадный</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "180090751316",
+    "project_id": "menumate-b0416",
+    "storage_bucket": "menumate-b0416.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180090751316:android:150461fb88c19911c860c1",
+        "android_client_info": {
+          "package_name": "com.example.kursach"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0uZJEXgepbBkCX9n4LfBR5_3IENZhAlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

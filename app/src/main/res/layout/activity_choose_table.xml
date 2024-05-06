@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/chooseTable"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+
+        android:src="@mipmap/park" />
+
+    <!-- Текст "Выберите стол" -->
+    <TextView
+        android:id="@+id/tableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите стол:"
+        android:textColor="@color/white"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"/>
+
+    <!-- 8 кнопок для выбора стола -->
+    <LinearLayout
+        android:id="@+id/tableButtonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/tableText"
+        android:layout_marginTop="8dp">
+
+        <!-- Кнопка для стола 100 -->
+        <Button
+            android:id="@+id/tableButton100"
+            android:layout_width="195dp"
+            android:layout_height="100dp"
+            android:text="100"
+            android:textSize="22sp"
+            android:layout_marginLeft="210dp"
+            style="@style/BlueButtonStyle"/>
+
+        <!-- Кнопка для стола 101 -->
+        <Button
+            android:id="@+id/tableButton101"
+            android:layout_width="195dp"
+            android:layout_height="100dp"
+            android:text="101"
+            android:textSize="22sp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="5dp"
+            style="@style/BlueButtonStyle"/>
+
+        <!-- Кнопка для стола 102 -->
+        <Button
+            android:id="@+id/tableButton102"
+            android:layout_width="195dp"
+            android:layout_height="100dp"
+            android:text="102"
+            android:textSize="22sp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="5dp"
+            style="@style/BlueButtonStyle"/>
+
+        <!-- Кнопка для стола 103 -->
+        <Button
+            android:id="@+id/tableButton103"
+            android:layout_width="195dp"
+            android:layout_height="100dp"
+            android:text="103"
+            android:textSize="22sp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="5dp"
+            style="@style/BlueButtonStyle"/>
+
+        <!-- Кнопка для стола 104 -->
+        <Button
+            android:id="@+id/tableButton104"
+            android:layout_width="195dp"
+            android:layout_height="100dp"
+            android:text="104"
+            android:textSize="22sp"
+            android:layout_marginTop="-416dp"
+            android:layout_marginLeft="7dp"
+            style="@style/BlueButtonStyle"/>
+
+        <!-- Кнопка для стола 105 -->
+        <Button
+            android:id="@+id/tableButton105"
+            android:layout_width="195dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="7dp"
+            android:text="105"
+            android:textSize="22sp"
+            style="@style/BlueButtonStyle"/>
+
+        <!-- Кнопка для стола 106 -->
+        <Button
+            android:id="@+id/tableButton106"
+            android:layout_width="195dp"
+            android:layout_height="100dp"
+            android:text="106"
+            android:textSize="22sp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="5dp"
+            style="@style/BlueButtonStyle"/>
+
+        <!-- Кнопка для стола 107 -->
+        <Button
+            android:id="@+id/tableButton107"
+            android:layout_width="195dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="7dp"
+            android:text="107"
+            android:textSize="22sp"
+            style="@style/BlueButtonStyle"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/stol"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/guestsText"
+        android:layout_marginTop="-60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="number"
+        android:hint="Выбранный стол"
+        android:textSize="19sp"
+        android:textColor="#ACACAC"/>
+
+    <!-- Текст "Укажите кол-во гостей" -->
+    <TextView
+        android:id="@+id/guestsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Укажите количество гостей:"
+        android:textColor="@color/white"
+        android:layout_below="@id/tableButtonsLayout"
+        android:layout_marginTop="-130dp"
+        android:layout_marginStart="16dp"
+        android:textSize="17sp"/>
+
+    <!-- Поле для ввода количества гостей -->
+    <EditText
+        android:id="@+id/guestsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/guestsText"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="number"
+        android:hint="Количество гостей"
+        android:textSize="18sp"
+        android:textColor="#ACACAC"/>
+
+    <!-- Кнопка "Далее" -->
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Далее"
+        android:textSize="18dp"
+        android:layout_below="@id/guestsEditText"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        style="@style/BlueButtonStyle"/>
+
+</RelativeLayout>
